@@ -16,8 +16,3 @@ document.querySelectorAll(".faq-item").forEach((item) => {
     item.classList.toggle("active");
   });
 });
-
-document.querySelector(".contact-form").addEventListener("submit", (event) => {
-  event.preventDefault();
-  alert("Merci ! Votre demande a bien été préparée. Connectez ce formulaire à votre outil email ou CRM pour recevoir les candidatures.");
-});
